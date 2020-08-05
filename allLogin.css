@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:'Cinzel', serif;
+}
+
+.bgimg{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(27deg, #004E95 50%, #013A68 50%);
+}
+
+.centerdiv{
+	width:350px;
+	height:445px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background-color:red;
+	transform:translate(-50%, -50%);
+	background-image:linear-gradient(27deg, #013A68 50%, #004E95 50%);
+	box-shadow:0 1px 6px, 0 1px 4px;
+}
+
+#profilepic{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	position:relative;
+	top:-60px;
+	left:calc((350px - 120px)/2);
+}
+
+h2{
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+	font-size:2em;
+	word-spacing:10px;
+	margin-top:-50px;
+	margin-bottom:50px;
+	text-shadow:-2px 2px 1px #0A84C6;
+}
+
+.inputbox{
+	width:calc(100% - 40px);
+	height:30px;
+	display:block;
+	margin:auto;
+	padding:0 10px;
+	box-sizing:border-box;
+	font-size:15.5px
+}
+
+::placeholder{
+	letter-spacing:2px;
+	color:black;
+}
+
+button{
+	width: calc(100% - 40px);
+	height:30px;
+	display:block;
+	margin:auto;
+	color:white;
+	background-color: #0A84C6;
+	border:none;
+}
+
+.FORGOT-SECTION{
+	width: calc(100% - 60px);
+	line-height:30px;
+	display:block;
+	margin:auto;
+	color:white;
+	background-color: #8C9890;
+	border:none;
+	font-size:0.8em;
+	text-align:right;
+	padding-right:20px;
+}
+
+.FORGOT-SECTION a{
+	text-decoration: none;
+	color:#ffffff;
+}

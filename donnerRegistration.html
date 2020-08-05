@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" />
+		<meta charset="UTF-8" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<meta name="description" content="There are many fun and exciting attraction to discover while at our hotel.You will get pleasure from our hotel." />
+		<meta name="keywords" content="dusai, resort, spa, moulvibazar, bangladesh, hotel, villa, villas,hotel, beautiful, attractions, 5 star, family, vacation, pool, fun, restaurant" />
+		<meta name="author" content="Hossain Md Tuhin" />
+
+		
+		<title>Motivation Group</title>
+		
+        <link href="images/logo.ico" rel="icon" type="image/x-icon" />
+		
+		<link href="donnerRegistration.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="fix main">
+			<div class="fix upperHeader">
+				<ul>
+					<li><a href="whoWeAre.html">What is Our Major Goal</a></li>
+					<li><a href="donnerRegistration.html">Registration for Blood Donor</a></li>
+					<li><a href="userRegistration.html">Registration for New User</a></li>
+					<li><a href="news.html">Suggestion and Information</a></li>
+				</ul>
+			</div>
+			<div class="fix header">
+				<ul>
+					<li class="headerPic1">
+						<table>
+							<tr>
+								<td><a href="index.html"><img src="images/1111.jpg" width="105px"/></a></td>
+							</tr>
+							<tr class="headerPic1Text">
+								<td><h2>Motivation Group</h2></td>
+							</tr>
+						</table>
+						
+					</li>
+					<li class="homeGroupLog">
+						<table>
+							<tr>
+								<td class="headerPic2">
+									<a href="index.html"><img src="images/home.png" width="30px"/></a>
+								</td>
+								<td class="headerPic3">
+									<a href="members.html"><img src="images/group.png" width="30px"/></a>
+								</td>
+								<td class="headerPic4">
+									<a href="logIn.html"><img src="images/login.png" width="30px"/></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p><a href="index.html">Home</a></p>
+								</td>
+								<td>
+									<p><a href="members.html">Apply Now</a></p>
+								</td>
+								<td>
+									<p><a href="logIn.html">Log In</a></p>
+								</td>
+							</tr>
+						</table>
+					</li>
+					
+					<li class="fix headerText">
+						<h3><em>"" স্বেচ্ছায় করি রক্তদান ""</em></h3>
+						<h3><em>"" জাগবে মানবতা, বাঁচবে প্রাণ ""</em></h3>
+					</li>
+				</ul>
+			</div>
+			<div class="fix mainmenu">
+				<ul>
+					<li><a href="aboutMotivation.html"><strong>About Motivation</strong></a></li>
+					<li><a href="socialActivities.html"><strong>Social Activities</strong></a></li>
+					<li><a href="whoCanGiveBlood.html"><strong>Who Can Give Blood</strong></a></li>
+					<li><a href="howToSupportUs.html"><strong>How to Support Us</strong></a></li>
+					<li><a href="photosAndVideos.html"><strong>Photos and Videos</strong></a></li>
+				</ul>
+			</div>
+			
+			
+			
+			
+			<div class="fix maincontent">
+				<div class="content">
+					
+					<form action="donorInsert.php" method="POST" enctype="multipart/form-data">
+						<h2><strong>Registration For Blood Donor</strong></h2><br><hr><br>
+					
+						<p>Full Name:</p>
+						<input type="text" name="fullName" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Father's Name:</p>
+						<input type="text" name="father" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Mother's Name:</p>
+						<input type="text" name="mother" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Username:</p>
+						<input type="text" name="username" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Password:</p>
+						<input type="password" name="password" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Age:</p>
+						<input type="text" name="age" required maxlength="3" size="47px" class="inputSize" onkeypress="isInputNumber(event)"><br><br>
+						
+						<p>Gender:</p><br>
+						
+						<div class="radioButton">
+							<input type="radio" name="gender" value="male">Male
+							<input type="radio" name="gender" value="female">Female<br><br>
+						</div>
+						
+						<p>Profession:</p>
+						<input type="text" name="profession" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Educational Background:</p>
+						<input type="text" name="education" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Permanent Address:</p>
+						<input type="text" name="perAddr" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Present Address:</p>
+						<input type="text" name="preAddr" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Phone No:</p>
+						<input type="text" name="phone" value="+8801" required maxlength="14" size="47px" onkeypress="isInputNumber(event)" class="inputSize"><br><br>
+						
+						<p>Blood Group:</p>
+						<input type="text" name="bloodGroup" required maxlength="3" size="47px" class="inputSize"><br><br>
+
+						<p>Religion:</p>
+						<input type="text" name="religion" required maxlength="45" size="47px" class="inputSize"><br><br>
+
+						<p>Weight:</p>
+						<input type="text" name="weight" required maxlength="3" size="47px" class="inputSize" onkeypress="isInputNumber(event)"><br><br>
+
+						<p>Nationality:</p>
+						<input type="text" name="nationality" required maxlength="45" size="47px" class="inputSize"><br><br>
+						
+						<p>Upload Image:</p>
+						<input type="file" name="uploadfile" value="Upload Image" class="inputSize"><br><br>
+						
+						
+						<div class="submit">
+							<input type="submit" name="submit" value="Submit"><br><br>
+						</div>
+						
+					</form>
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class="bottom">
+				<table class="bottomTable">
+					<tr class="bottomRow1">
+						<td><h3>Contact</h3></td>
+						<td><h3>Google Maps</h3></td>
+						<td><h3>Follow Us</h3></td>
+					</tr>
+					<tr class="bottomRow2">
+						<td>
+							<p><strong>Head Office:</strong></p>
+							<p>New Market&lpar;2nd Floor&rpar;,Room No-27-28, Ananda North Bus Station, Sadar, Laxipur District-3700</p>
+							<p><strong>Phone:</strong></p>
+							<p>01634-844575, 01974-337252, 01974-337254</p>
+						</td>
+						
+						<td class="googleMap">
+							<a href="https://www.google.com/maps/place/New+Market,+Lakshmipur/@22.9433251,90.8264309,16.25z/data=!4m5!3m4!1s0x3754c3d687fe195f:0x63555333ce8acd5b!8m2!3d22.9446978!4d90.8270043"><img src="images/googleMap.PNG"/></a>
+						</td>
+						
+						<td class="follow">
+							<a href="https://www.youtube.com/"><img src="images/youtube.png"/></a>
+							<a href="https://www.facebook.com/"><img src="images/fb.png"/></a>
+							<a href="https://plus.google.com/"><img src="images/google.png"/></a>
+							<a href="https://login.skype.com/"><img src="images/skype.png"/></a>
+							<a href="https://mobile.twitter.com/"><img src="images/twitter.png"/></a>
+							<a href="https://www.linkedin.com/hp/ "><img src="images/in.png"/></a>
+							<a href="http://digg.com/welcome?next=%2F"><img src="images/digg.png"/></a>
+							<a href="https://www.instagram.com/accounts/login/?force_classic_login"><img src="images/ilustagram.png"/></a>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+			<div class="fix footer" id="idfooter">
+				<center><p>&copy; 2019. Motivation Group. All Rights Reserved</p></center>
+			</div>
+			
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+			$('#slider').nivoSlider();
+			});
+		</script>
+
+		<script>
+			function isInputNumber(evt){
+				var ch = String.fromCharCode(evt.which);
+
+				if(!(/[0-9]/.test(ch))){
+					evt.preventDefault();
+				}
+			}
+		</script>
+		
+	</body>
+</html>
