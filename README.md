@@ -2,26 +2,22 @@
 ### A Simple Web Based Application created by using HTML, CSS, PHP, JS, MySQL Database.
 
 ## Flash Screen
-![flash screen](https://user-images.githubusercontent.com/28469673/88409759-f775b200-ce07-11ea-90af-98a86d63fa1a.PNG)
+![1](https://user-images.githubusercontent.com/50451175/89397163-121e2400-d742-11ea-8a51-e978f96c70d3.PNG)
 
 ## Login
-![login](https://user-images.githubusercontent.com/28469673/88409949-43c0f200-ce08-11ea-86b8-054781a5bd5e.PNG)
+![2](https://user-images.githubusercontent.com/50451175/89397208-2530f400-d742-11ea-903e-ce2affd8cd11.png)
 
 ## Home Screen
-![home](https://user-images.githubusercontent.com/28469673/88409893-2be96e00-ce08-11ea-8c05-4a1c931b2169.PNG)
+![3](https://user-images.githubusercontent.com/50451175/89397229-2d892f00-d742-11ea-8a31-faef02da888a.png)
 
 ## Navigation view
-![Navi](https://user-images.githubusercontent.com/28469673/88410029-5e936680-ce08-11ea-9928-4364fda15a0a.PNG)
+![4](https://user-images.githubusercontent.com/50451175/89397233-2f52f280-d742-11ea-95cc-460c1ddf6afc.png)
 
 ## Expenses chart
-![chart](https://user-images.githubusercontent.com/28469673/88410071-723ecd00-ce08-11ea-9b3a-2beed158c924.PNG)
+![5](https://user-images.githubusercontent.com/50451175/89397234-2f52f280-d742-11ea-8737-d9c3358c2205.png)
 
 ## View your All expenses as list
-![view all](https://user-images.githubusercontent.com/28469673/88410157-8f739b80-ce08-11ea-9cf7-38a9d2b99312.PNG)
+![6](https://user-images.githubusercontent.com/50451175/89397235-2feb8900-d742-11ea-9c3b-98d711f6bc34.png)
 
 
-
-
-### Here is the APK file to Install in your Android device
-Google drive link: https://drive.google.com/file/d/1g34lB9Snef4hLctRkWaUd2wFdoAIYZ4b/view?usp=sharing
 
