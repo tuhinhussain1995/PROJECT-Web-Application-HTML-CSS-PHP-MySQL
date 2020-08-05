@@ -1,8 +1,5 @@
-# MoneyManager
-### Money Manager Android app using SQLite Room Database.
-MoneyManager will keep the track of your daily expenses in the simplest way possible. 
-All you have to do is just click on button and input your amount with description, 
-then the total amount you’ve transacted with the storeage.
+# Motivation Group
+### A Simple Web Based Application created by using HTML, CSS, PHP, JS, MySQL Database.
 
 ## Flash Screen
 ![flash screen](https://user-images.githubusercontent.com/28469673/88409759-f775b200-ce07-11ea-90af-98a86d63fa1a.PNG)
