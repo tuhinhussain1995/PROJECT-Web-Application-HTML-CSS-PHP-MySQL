@@ -2,7 +2,7 @@
 ### A Simple Web Based Application created by using HTML, CSS, PHP, JS & MySQL Database.
 <br/>
 
-# Some User Interface of this Website.
+# Some User Interfaces of this Website:
 
 ## Home Page
 ![1](https://user-images.githubusercontent.com/50451175/89397163-121e2400-d742-11ea-8a51-e978f96c70d3.PNG)
